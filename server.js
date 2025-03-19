@@ -12,7 +12,7 @@ app.set('view engine', 'ejs'); // Configura EJS como motor de plantillas
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Conexión a la base de datos MongoDB
-mongoose.connect('mongodb+srv://jos3:p3p3@cluster0.0xkotzd.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<may>:<912>@cluster0.6joyu.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
